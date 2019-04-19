@@ -27,6 +27,7 @@ describe "#roll" do
     end
     expect(rolls).to include(1, 2, 3, 4, 5, 6)
     expect(rolls).not_to include(0, 7)
+    rand(1...6)
   end
 
 end
