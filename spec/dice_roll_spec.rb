@@ -5,7 +5,7 @@ describe "#roll" do
   it "should return an Integer" do
     expect(roll).to be_a(Integer)
     rand(8)
-    >5
+
   end
 
   it "should return a number greater than 0" do
