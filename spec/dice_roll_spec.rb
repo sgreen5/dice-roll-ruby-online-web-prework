@@ -10,6 +10,7 @@ describe "#roll" do
 
   it "should return a number greater than 0" do
     expect(roll).to be > 0
+    
   end
 
   it "should return a number less than 7" do
