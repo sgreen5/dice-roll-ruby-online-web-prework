@@ -23,7 +23,7 @@ describe "#roll" do
     rolls = []
     100.times do
       rolls << roll
-      100.times ( r)
+      100.times {rand (1...75)
     end
     expect(rolls).to include(1, 2, 3, 4, 5, 6)
     expect(rolls).not_to include(0, 7)
